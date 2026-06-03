@@ -3,12 +3,12 @@ version: '3.8'
 services:
   # First service: Pure PHP 8.4 environment for core domain logic
   php-clean:
-    image: php:8.4-cli-alpine
+    build:
+      context: .
+      dockerfile: ./docker/php-clean/Dockerfile
     container_name: portfolio_php_clean
     volumes:
       - ./apps/php-clean-domain:/usr/src/app
-    working_dir: /usr/src/app
-    # CLI container would exit immediately; this keeps it alive in the background
     command: tail -f /dev/null
     networks:
       - portfolio_network
