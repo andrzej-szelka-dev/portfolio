@@ -8,6 +8,11 @@
             "AndrzejSzelkaDev\\PhpCleanDomain\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "AndrzejSzelkaDev\\PhpCleanDomain\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Andrzej Szelka",
