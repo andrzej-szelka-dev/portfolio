@@ -1,0 +1,15 @@
+# Ignoruj vendor we wszystkich podprojektach
+**/vendor/
+**/composer.lock
+
+# Ignoruj pliki środowiskowe i cache we wszystkich aplikacjach
+**/.env
+**/.env.*
+**/var/
+**/storage/
+**/.phpunit.cache/
+
+# Pliki systemowe i IDE
+.idea/
+.vscode/
+Thumbs.db
