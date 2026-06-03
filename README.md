@@ -33,4 +33,4 @@ Every service in this repository is fully containerized. You do not need PHP or 
    ```
 
 ---
-*Maintained with 💻 by [Andrzej Szelka](https://github.com).*
+*Maintained with 💻 by [Andrzej Szelka](https://github.com/andrzej-szelka-dev/portfolio).*
