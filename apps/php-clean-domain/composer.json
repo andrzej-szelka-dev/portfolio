@@ -1,0 +1,21 @@
+{
+    "name": "andrzej-szelka-dev/php-clean-domain",
+    "description": "Core domain and business logic showcase using pure PHP 8.4",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AndrzejSzelkaDev\\PhpCleanDomain\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrzej Szelka",
+            "email": "szelkaandrzej@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "phpstan/phpstan": "^1.11"
+    }
+}
